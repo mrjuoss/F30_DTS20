@@ -1,0 +1,19 @@
+/* Untuk Tablet */
+@media (max-width: 1000px) {}
+
+
+
+
+
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+
+  .nav-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
