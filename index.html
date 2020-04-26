@@ -6,40 +6,137 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Tallent Scholarship with Progate Tahun 2020</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <header>
-    <div class="wrapper">
-      <div class="logo">
-        <img src="images/logo_dts.png" alt="Digital Talent Scholarship">
-        <img src="images/logo_progate.svg" alt="progate">
+    <div class="container">
+      <div class="nav-left">
+        <img class="logo" src="images/logo.png" width="170" height="50" alt="logo">
       </div>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </nav>
+      <div class="nav-right">
+        <a href="#">Home</a>
+        <a href="#client">Our Client</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+        <a href="" class="icon">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </div>
   </header>
+
+  <!-- Content -->
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>Menjadi Software Developer Profesional</h1>
+      <h1>Kembangkan kemampuanmu bersama Digital Talent Scholarship!</h1>
+      <p>Progate adalah platform online untuk belajar coding.</p>
+      <p>Kami menawarkan lingkungan pemograman yang lengkap untuk mempermudah Anda memulai.</p>
+    </div>
+  </div>
+  <!-- MAIN -->
+
   <main>
-    <section class="content-utama">
-
-    </section>
-    <section class="content-extra">
-      <div class="content-extra__first">
-
+    <!-- OUR CLIENT -->
+    <section id="client">
+      <div class="container">
+        <h1 class="t-upper t-center pt-30 pb-20">Our Client</h1>
+        <div class="client-container mb-30">
+          <div class="card__client">
+            <img class="card__image--client" src="images/client-01.jpg" alt="DTS Kominfo">
+          </div>
+          <div class="card__client">
+            <img class="card__image--client" src="images/client-02.jpg" alt="Progate">
+          </div>
+        </div>
       </div>
-      <div class="content-extra__second">
+    </section>
 
+    <!-- OUR TEAM -->
+    <section id="team"></section>
+      <div class="container">
+        <h1 class="t-upper t-center pt-30 pb-20">Our Team</h1>
+        <div class="team-container mb-30">
+          <div class="card__team">
+            <img class="card__image--team" src="https://images.unsplash.com/photo-1506919258185-6078bba55d2a">
+            <p class="card_name t-center">Mohamad Arif Mujaki</p>
+            <a href="#" class="btn btn-profile">Detail Profile</a>
+          </div>
+          <div class="card__team">
+            <img class="card__image--team"
+              src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61">
+            <p class="card_name t-center">Maha Dwi Putra</p>
+            <a href="#" class="btn btn-profile">Detail Profile</a>
+          </div>
+          <div class="card__team">
+            <img class="card__image--team"
+              src="https://images.unsplash.com/photo-1553267751-1c148a7280a1">
+            <p class="card_name t-center">Hajar Akbar</p>
+            <a href="#" class="btn btn-profile">Detail Profile</a>
+          </div>
+          <div class="card__team">
+            <img class="card__image--team" src="https://images.unsplash.com/photo-1506919258185-6078bba55d2a">
+            <p class="card_name t-center">Lukman Nulhakim</p>
+            <a href="#" class="btn btn-profile">Detail Profile</a>
+          </div>
+          <div class="card__team">
+            <img class="card__image--team" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61">
+            <p class="card_name">Mochamad Rizky Ilmawan</p>
+            <a href="#" class="btn btn-profile">Detail Profile</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
-  <footer>
-    <p>Proyek 01 Kelompok F30_DTS20 </p>
+
+  <!-- Footer -->
+  <footer id="contact" class="pb-20">
+    <div class="container">
+      <div class="contact__header">
+        <h1 class="t-upper t-white">contact Us</h1>
+        <p class="contact__info t-white">
+          Proyek 01 Kelompok F30_DTS20
+        </p>
+      </div>
+      <div class="contact__body" id="contact">
+        <div class="contact--left">
+          <h2 class="t-upper t-white">Talk With Us</h2>
+          <hr>
+          <p class="t-white">Telp : 0812-13-15-866-766</p>
+          <p class="t-white">Email : f30@dts-progate.id</p>
+        </div>
+        <div class="contact--center">
+          <h2 class="t-upper t-white">Say Hello</h2>
+          <hr>
+          <form>
+            <input type="text" name="name" Placeholder="Nama Lengkap">
+            <input type="email" name="email" placeholder="Alamat Email">
+            <input type="text" name="telephone" placeholder="Nomor Telephone/ WhatsApp">
+            <textarea name="comment" placeholder="Pesan" rows="4" cols="50"></textarea>
+            <input class="btn mt-10" type="submit" value="SUBMIT">
+          </form>
+        </div>
+        <div class="contact--right">
+          <h2 class="t-upper t-white">Keep Connected</h2>
+          <hr>
+          <div class="facebook">
+            <i class="fa fa-facebook-square fa-lg fa-white"></i>
+            <span class="t-white"> Facebook
+            </span></div>
+          <div class="twitter">
+            <i class="fa fa-twitter-square fa-lg fa-white"></i>
+            <span class="t-white">
+            Twitter</span></div>
+          <div class="youtube">
+            <i class="fa  fa-youtube-square fa-lg fa-white"></i>
+            <span class="t-white">Youtube</span></div>
+        </div>
+      </div>
+
+    </div>
   </footer>
 </body>
 
